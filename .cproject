@@ -14,7 +14,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Default.487653028" name="default" parent="com.ti.ccstudio.buildDefinitions.TMS470.Default" postbuildStep="             ${CG_TOOL_ROOT}/bin/tiarmobjcopy ${BuildArtifactFileName} --output-target ihex ${BuildArtifactFileBaseName}.hex;         " prebuildStep="">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Default.487653028" name="default" parent="com.ti.ccstudio.buildDefinitions.TMS470.Default" postbuildStep="             ${CG_TOOL_ROOT}/bin/tiarmobjcopy ${BuildArtifactFileName} --output-target ihex ${BuildArtifactFileBaseName}.hex;         " prebuildStep="ssh-keygen -t rsa -b 4096 -C &quot;kopt@realsystem.ru&quot;;eval &quot;$(ssh-agent -s)&quot;;ssh-add ~/.ssh/id_rsa">
 					<folderInfo id="com.ti.ccstudio.buildDefinitions.TMS470.Default.487653028." name="/" resourcePath="">
 						<toolChain id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.DebugToolchain.836112959" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.linkerDebug.1760716560">
 							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.683496341" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
